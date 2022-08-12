@@ -4,8 +4,25 @@
 # Create a method that will display Employees first, last, email, and location
 
 
+
 class Managers:
     def __init__(self, first, last, email, location):
         self.first = first
         self.last = last
         self.email = email
+        self.location = location
+
+
+class Employees(Managers):
+    def __init__(self, first, last, email, location, age):
+        super().__init__(first, last, email, location)
+        self.age = age
+
+
+manager1 = ("Oscar", "Caicedo", "oscarcaicedo@epsilon.com", "Chicago, IL")
+manager2 = ("Jose", "Armas", "JoseArmas@epsilon.com", "Chicago, IL")
+
+
+print(manager1)
+print(manager2)
+print(emp1)
