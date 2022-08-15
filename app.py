@@ -2,6 +2,8 @@
 # Create an Employees subclass
 # Create a method that will display Manager first, last, email, and location
 # Create a method that will display Employees first, last, email, and location
+# Set Manager pay
+# Get Manager pay
 
 
 
@@ -21,6 +23,8 @@ class Employees(Managers):
 
 manager1 = ("Oscar", "Caicedo", "oscarcaicedo@epsilon.com", "Chicago, IL")
 manager2 = ("Jose", "Armas", "JoseArmas@epsilon.com", "Chicago, IL")
+
+emp1 = ("Carlos", "Minero", "Cminero1@yahoo.com", 28)
 
 
 print(manager1)
