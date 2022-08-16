@@ -45,3 +45,21 @@ class Employee(ABC):
     @abstractmethod
     def get_salary(self):
         pass
+
+class FulltimeEmployee(Employee):
+    def __init__(self, first_name, last_name, salary): #Instance attributes from original and new ones.
+        super().__init__(first_name, last_name) # Instances attributes of the OG class
+        self.salary = salary
+    
+    def get_salary(self):
+        return self.salary
+    
+class HourlyEmployee(Employee):
+    def __init__(self, first_name, last_name, worked_hours, rate):
+        super().__init__(first_name, last_name)
+        self.worked_hours = worked_hours
+        self.rate = rate
+    
+    def get_salary(self):
+        return self.worked_hours * self.rate
+
