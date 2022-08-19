@@ -25,3 +25,7 @@ class Square(Shape):
 square = Square(5)
 print(square.area())
 print(square.perimeter())
+
+square = Square(5)
+print(square.area())
+print(square.perimeter())
