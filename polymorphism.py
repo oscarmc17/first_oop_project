@@ -2,12 +2,16 @@
 # Poly = many
 # Morphism = form  "Many Forms"
 
-class French:
+class Language:
+    def say_hello(self):
+        raise NotImplementedError('Please use say_hello class in child class')
+
+class French(Language):
     def say_hello(self):
         print('Bonjour')
 
 
-class Chinese:
+class Chinese(Language):
     def say_hello(self):
         print('Nihao')
 
