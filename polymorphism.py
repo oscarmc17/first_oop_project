@@ -25,9 +25,3 @@ john = Chinese()
 
 intro(sarthak)
 intro(john)
-
-sarthak = French()
-john = Chinese()
-
-intro(sarthak)
-intro(john)
