@@ -16,6 +16,11 @@ class Chinese(Language):
         print('Nihao')
 
 
+class Spanish(Language):
+    def say_hello(self):
+        print('Hola')
+
+
 def intro(lang):
     lang.say_hello()
 
