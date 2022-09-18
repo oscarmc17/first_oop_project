@@ -3,6 +3,7 @@
 
 arr = [10, 3, 15, 7, 8, 23, 98, 29]
 
+
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -41,9 +42,10 @@ def merge_two_sorted_lists(a, b):
     return sorted_list
 
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
 
+    # print(merge_two_sorted_lists(a, b))
 
-# print(merge_two_sorted_lists(a, b))
+    print(merge_sort(arr))
 
-print(merge_sort(arr))
+print(f'__name__: {__name__}/.,mn6bxcvui9o0p-[ ')
